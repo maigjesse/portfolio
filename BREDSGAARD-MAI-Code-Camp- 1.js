@@ -1,3 +1,11 @@
+/*The Bechdel Test is a simple test to see whether a book or movie treats women as fully-fledged
+characters or mostly as set-pieces for male action. The test was popularised by the Alison Bechdel’s
+comic (pictured above) and consists of three rules. The movie has to have: (1) at least two women in it,
+who (2) talk to each other, about (3) something besides a man.
+In this Code Camp we will use a dataset containing 1776 movies with the answers to these questions to
+investigate whether fair female representation is correlated (positively or negatively) with the rating of
+that movie*/
+
 const Papa = require('papaparse');
 const fs = require('fs');
 const rawData = fs.readFileSync('Bechdel-test.csv', 'utf-8');
